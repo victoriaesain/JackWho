@@ -1,0 +1,49 @@
+
+main {
+  .hero {
+    width: auto;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    background-image: url("../img/portada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+    .texto-portada {
+      color: #68594d;
+      width: 35vw;
+      height: 35vh;
+      text-align: center;
+      font-size: 30px;
+      font-weight: lighter;
+      text-shadow: 2px 3px 9px rgba(105, 94, 86, 0.58);
+    }
+  }
+  .carruseles {
+    .introduccion {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      font-size: 20px;
+      color: black;
+    }
+    .titulo-carrusel-pelos {
+      display: flex;
+      justify-content: space-around;
+      p {
+        text-align: center;
+        font-size: 35px;
+        color: black;
+        align-self: center;
+        border-top: solid;
+        border-bottom: solid;
+        width: fit-content;
+      }
+    }
+    .carousel {
+      margin: 5px 250px 100px 250px;
+    }
+  }
+}

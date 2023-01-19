@@ -1,0 +1,24 @@
+.contactoForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+  img {
+    height: 90px;
+    width: 90px;
+    margin-top: 35px;
+  }
+  p {
+    font-size: 40px;
+    width: 55%;
+    margin: 70px;
+    text-align: center;
+  }
+  div {
+    width: 60%;
+  }
+}

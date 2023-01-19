@@ -1,0 +1,28 @@
+.contenedor-blog {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 90px;
+  font-size: larger;
+  div {
+    margin: 30px;
+    .list-group-item:hover {
+      font-weight: bolder;
+    }
+    .scrollspy-example {
+      h2 {
+        color: #ddb38c;
+        font-weight: bolder;
+      }
+      h3 {
+        color: #e7cdb5;
+        font-weight: bold;
+      }
+      h4 {
+        color: #e7cdb5;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name= "keywords" content="Jack Rusell, Jack, Russell, Terrier, perro, mascota, razas, blog">
+    <meta name="description" content= "Si estas investigando acerca de los Jack Russells, ¡este blog es para ti!
+    te contamos el origen, caracteristicas y todo lo que necesitas saber sobre esta raza.
+    ">
     <title>Jack Who?</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -61,37 +65,47 @@
         </div>
       </nav>
     </header>
+
     <main>
       <section class="contactoForm">
-        <img src="../img/correo.png" alt="mensaje" />
+        <img class="animate__animated animate__pulse" src="../img/correo.png" alt="icono correo" />
         <p>
           Si tiene inquietudes o consultas, estaremos encantados de estar en
           contacto con usted
         </p>
-        <form action="" method="" actyp="">
-          <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" />
+        
+        <!-- nombre y mail -->
+        
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribe tu nombre">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Email</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu email">
+        </div>
+
+        <!-- asunto -->
+
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Asunto</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribe el asunto">
+        </div>
+      
+
+        <!-- mensaje y boton enviar-->
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Mensaje</label>
+          <br>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="text" id="email" />
-          </div>
-          <div>
-            <label for="asunto">Asunto:</label>
-            <input type="text" id="asunto" />
-          </div>
-          <div>
-            <label for="mensaje">Mensaje:</label>
-            <input type="text" id="mensaje" />
-          </div>
-          <div>
-            <button class="botonForm" type="submit">ENVIAR</button>
-            <button class="botonForm" type="reset">REESTABLECER</button>
-          </div>
-        </form>
+          <br>
+        </div>
       </section>
     </main>
+    
     <footer>
       <div>
         <img src="../img/facebook.png" alt="facebook" />

@@ -1,0 +1,23 @@
+%flexAcercaDeNosotros {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 90px;
+}
+
+%acercaDeNosotrosh2 {
+  width: 25%;
+  color: #ddb38c;
+  font-weight: bold;
+}
+
+%acercaDeNosotrosP {
+  width: 50%;
+  text-align: justify;
+}
+
+%acercaDeNosotrosSpan {
+  font-size: 22px;
+  font-style: italic;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+}
