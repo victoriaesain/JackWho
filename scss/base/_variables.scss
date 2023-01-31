@@ -21,3 +21,13 @@
   font-style: italic;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
 }
+
+@mixin blog ($color, $font){
+  color: $color;
+  font-weight: $font;
+}
+
+@mixin heightWidth ($altura, $ancho){
+  height: $altura;
+  width: $ancho;
+}

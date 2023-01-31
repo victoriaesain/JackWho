@@ -1,8 +1,7 @@
 
 
 header {
-  height: 120px;
-  width: 120px;
+  @include heightWidth (120px, 120px);
   margin-bottom: 0px;
   margin-right: 30px;
   margin-top: 0px;
@@ -10,8 +9,7 @@ header {
     div {
       a {
         .imagen-nav {
-          height: 120px;
-          width: 120px;
+          @include heightWidth (120px, 120px);
           margin-bottom: 0px;
           margin-right: 30px;
           margin-top: 0px;

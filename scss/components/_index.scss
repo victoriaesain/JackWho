@@ -13,8 +13,7 @@ main {
     background-attachment: fixed;
     .texto-portada {
       color: #68594d;
-      width: 35vw;
-      height: 35vh;
+      @include heightWidth (35vh, 35vw);
       text-align: center;
       font-size: 30px;
       font-weight: lighter;
